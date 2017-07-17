@@ -1,5 +1,7 @@
 # Ansible role for openssh-server
 
+[![Build Status](https://travis-ci.org/shapeshed/openssh-server.svg?branch=master)](https://travis-ci.org/shapeshed/openssh-server)
+
 An Ansible role for `openssh-server`. Includes sensible defaults that can be overridden.
 
 ## Default variables

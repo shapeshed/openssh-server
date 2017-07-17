@@ -6,8 +6,8 @@ An Ansible role for `openssh-server`. Includes sensible defaults that can be ove
 
 Default variables are defined in `defaults/main.yml`. To override them set the variables as you [normally would][1] in your Ansible scripts.
 
-|variable|default|
-|---|---|
+|Variable|Default|Documentation|
+|---|---|---|
 |`ssh_port` | 22 | [Documentation][2] |
 |`ssh_password_authentication` | false | [Documentation][3] |
 |`ssh_protocol` | true |  |

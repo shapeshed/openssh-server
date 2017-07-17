@@ -16,9 +16,11 @@ Default variables are defined in `defaults/main.yml`. To override them set the v
 |`ssh_use_pam` | false | |
 |`ssh_permit_root_login` | false | [Documentation][4] |
 |`ssh_allow_users` | false | [Documentation][5] |
+|`ssh_x11_forwarding` | false | [Documentation][6] |
 
 [1]: http://docs.ansible.com/ansible/playbooks_variables.html
 [2]: https://man.openbsd.org/sshd_config#Port
 [3]: https://man.openbsd.org/sshd_config#PasswordAuthentication
 [4]: https://man.openbsd.org/sshd_config#PermitRootLogin
 [5]: https://man.openbsd.org/sshd_config#AllowUsers
+[6]: https://man.openbsd.org/sshd_config#X11Forwarding

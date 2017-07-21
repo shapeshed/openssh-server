@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :ansible do |ansible|
     ansible.playbook = "tests/test.yml"
-    #ansible.inventory_path = "tests/inventory"
+    ansible.inventory_path = "tests/inventory"
     ansible.sudo = true
   end
 end
